@@ -23,16 +23,14 @@ export const FormHero = styled.form`
 
   @media (max-width: 768px) {
     height: auto;
-    padding: 24px 0;
+    padding: 24px;
   }
 `
 
 export const FormDiv = styled.div`
   position: relative;
   color: #eee;
-  text-align: left;
-  max-width: 1050px;
-  margin: 0 auto;
+  max-width: 1000px;
 `
 
 export const TitleHero = styled.h2`
