@@ -7,6 +7,7 @@ export const FormHero = styled.form`
   background-size: cover;
   position: relative;
   display: flex;
+  justify-content: center;
   align-items: center;
 
   &::before {
@@ -29,6 +30,9 @@ export const FormHero = styled.form`
 export const FormDiv = styled.div`
   position: relative;
   color: #eee;
+  text-align: left;
+  max-width: 1050px;
+  margin: 0 auto;
 `
 
 export const TitleHero = styled.h2`
